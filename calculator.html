@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/calculator.css">
+  <title>Calculator</title>
+</head>
+<body>
+<div class="container">
+  <div class="center">
+    <div class="calculator">
+      <div id="result" class="result"></div>
+      <div id="operation" class="operation"></div>
+      <div class="board">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li>
+            <button onclick="calculator.deleteLast()"><</button>
+          </li>
+          <li>
+            <button onclick="calculator.clear()">C</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol('(')">(</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol(')')">)</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol('%')">%</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol('/')">/</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol(7)">7</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol(8)">8</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol(9)">9</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol('x')">x</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol(4)">4</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol(5)">5</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol(6)">6</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol('-')">-</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol(1)">1</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol(2)">2</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol(3)">3</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol('+')">+</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol('.')">.</button>
+          </li>
+          <li>
+            <button onclick="calculator.enterSymbol(0)">0</button>
+          </li>
+          <li>
+            <button onclick="calculator.calculate()">=</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
